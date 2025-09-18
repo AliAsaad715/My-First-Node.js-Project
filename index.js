@@ -15,6 +15,10 @@ mongoose.connect("mongodb+srv://ali715asaad:a2004l7i15@cluster0.4febrgn.mongodb.
 
 app.use(express.json());
 
+app.get('/', (req, res) => {
+    res.send('Hello in node.js project');
+})
+
 app.get('/hello', (req, res) => {
     res.send('Hello World!');
 })
@@ -113,7 +117,7 @@ app.get('/getArticles', async (req, res) => {
     const articles = await Article.find();
 
     res.render("articles.ejs", {
-        allArticles: art
+        allArticles: articles
     });
 });
 
