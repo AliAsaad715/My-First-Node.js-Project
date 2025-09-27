@@ -20,35 +20,35 @@ npm start
 ### Users
 
 ``
-POST      /api/v1/users/register
+POST  /api/v1/users/register
 ``
 
 ``
-POST /api/v1/users/login
+POST    /api/v1/users/login
 ``
 
 ``
-GET      /api/v1/users/logout
+GET     /api/v1/users/logout
 ``
 
 ``
-GET      /api/v1/users/admin
+GET     /api/v1/users/admin
 ``
 
 ``
-GET      /api/v1/users/:id
+GET     /api/v1/users/:id
 ``
 
 ``
-GET      /api/v1/users/me
+GET     /api/v1/users/me
 ``
 
 ``
-PUT      /api/v1/users/update-profile
+PUT     /api/v1/users/update-profile
 ``
 
 ``
-DELETE   /api/v1/users/:id
+DELETE  /api/v1/users/:id
 ``
 
 ``

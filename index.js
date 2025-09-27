@@ -30,6 +30,11 @@ app.use(`${api}/users`, usersRouter);
 app.use(`${api}/orders`, ordersRouter);
 app.use('/public/uploads', express.static(__dirname + '/public/uploads'));
 
+// Welcome message
+app.get('/', (req, res) => {
+    res.send('Welcome to my first Node.js project');
+});
+
 //Database
 mongoose.connect(process.env.CONNECTION_STRING)
     .then(() => {
