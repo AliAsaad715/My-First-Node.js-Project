@@ -21,13 +21,37 @@ npm start
 
 ``
 POST      /api/v1/users/register
-POST      /api/v1/users/login
+``
+
+``
+POST /api/v1/users/login
+``
+
+``
 GET      /api/v1/users/logout
+``
+
+``
 GET      /api/v1/users/admin
+``
+
+``
 GET      /api/v1/users/:id
+``
+
+``
 GET      /api/v1/users/me
+``
+
+``
 PUT      /api/v1/users/update-profile
+``
+
+``
 DELETE   /api/v1/users/:id
+``
+
+``
 GET users count: /api/v1/users/admin/get/count
 ``
 
@@ -35,12 +59,33 @@ GET users count: /api/v1/users/admin/get/count
 
 ``
 GET      /api/v1/products
+``
+
+``
 GET      /api/v1/products/:id
+``
+
+``
 POST     /api/v1/products/admin
+``
+
+``
 PUT      /api/v1/products/admin/:id
+``
+
+``
 DELETE   /api/v1/products/admin/:id
+``
+
+``
 PUT gallery-images : /api/v1/products/gallery-images/admin/:id
+``
+
+``
 GET featured products: /api/v1/products/get/featured/:count
+``
+
+``
 GET products count: /api/v1/products/admin/get/count
 ``
 
@@ -48,9 +93,21 @@ GET products count: /api/v1/products/admin/get/count
 
 ``
 GET      /api/v1/categories
+``
+
+``
 GET      /api/v1/categories/admin/:id
+``
+
+``
 POST     /api/v1/categories/admin
+``
+
+``
 PUT      /api/v1/categories/admin/:id
+``
+
+``
 DELETE   /api/v1/categories/admin/:id
 ``
 
@@ -58,12 +115,36 @@ DELETE   /api/v1/categories/admin/:id
 
 ``
 GET      /api/v1/orders/admin
+``
+
+``
 GET      /api/v1/orders/:id
+``
+
+``
 POST     /api/v1/orders
+``
+
+``
 PATCH    /api/v1/orders/admin/:id
+``
+
+``
 DELETE   /api/v1/orders/:id
+``
+
+``
 GET my orders: /api/v1/orders/get/my-orders
+``
+
+``
 GET orders count: /api/v1/orders/admin/get/count
+``
+
+``
 GET total sales: /api/v1/orders/admin/get/total-sales
+``
+
+``
 GET user orders: /api/v1/orders/admin/get/user-orders/:user_id
 ``

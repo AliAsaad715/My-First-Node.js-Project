@@ -93,7 +93,7 @@ router.post(`/admin`, uploadOptions.single('image'), async (req, res) => {
     }
 
     const fileName = file.filename;
-    const basePath = `${req.protocol}://${req.host}/public/uploads/`;
+    const basePath = `https://my-first-node-js-project-nkfr.onrender.com/public/uploads/`;
 
     const product = new Product({
         name: req.body.name,
