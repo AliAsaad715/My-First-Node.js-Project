@@ -4,7 +4,8 @@ const BlackList = require('../models/blacklist');
 require('dotenv/config');
 
 const authMiddleware = async (req, res, next) => {
-    if (req.url === '/api/v1/users/login' || req.url === '/api/v1/users/register'
+    if (req.url === '' || req.url === '/' || req.url === '/api/v1/users/login'
+        || req.url === '/api/v1/users/register'
         || req.url.startsWith('/public/uploads') ||
         (req.url.startsWith('/api/v1/products') && req.method === 'GET')
         || (req.url === '/api/v1/categories' && req.method === 'GET')) {
